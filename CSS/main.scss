@@ -6,25 +6,27 @@
 }
 
 body {
-    display: flex;
-    padding: 0 10px;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
+
     background: #a9d7d1;
 
+    header {
+        font-size: 42px;
+        font-weight: 600;
+        padding: 20px 30px;
+    }
+
     .container {
+        display: flex;
+        padding: 0 10px;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
         width: 1080px;
-        background: #fff;
+        margin: auto;
+        background: #fafafa;
         border-radius: 5px;
 
-        header {
-            font-size: 42px;
-            font-weight: 600;
-            padding: 20px 30px;
-            margin:auto;
-            border-bottom: 1px solid #bfbfbf;
-        }
+
     }
 
 

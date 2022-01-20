@@ -7,6 +7,17 @@
 }
 
 body {
+  background: #a9d7d1;
+}
+
+body header {
+  font-size: 42px;
+  font-weight: 600;
+  padding: 20px 30px;
+  margin: 0 auto;
+}
+
+body .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,20 +29,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #a9d7d1;
-}
-
-body .container {
   width: 1080px;
-  background: #fff;
-  border-radius: 5px;
-}
-
-body .container header {
-  font-size: 42px;
-  font-weight: 600;
-  padding: 20px 30px;
   margin: auto;
-  border-bottom: 1px solid #bfbfbf;
+  background: #fafafa;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=main.css.map */
