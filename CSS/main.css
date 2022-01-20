@@ -10,7 +10,7 @@ body {
   background-color: #a9d7d1;
 }
 
-body .title {
+body .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
