@@ -21,22 +21,17 @@ body {
   background: #a9d7d1;
 }
 
-body header {
-  font-size: 42px;
-  font-weight: 600;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 20px 30px;
-  border-bottom: 1px solid #bfbfbf;
-}
-
 body .container {
   width: 1080px;
   background: #fff;
   border-radius: 5px;
+}
+
+body .container header {
+  font-size: 42px;
+  font-weight: 600;
+  padding: 20px 30px;
+  margin: auto;
+  border-bottom: 1px solid #bfbfbf;
 }
 /*# sourceMappingURL=main.css.map */
