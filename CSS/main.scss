@@ -6,28 +6,27 @@
 }
 
 body {
-    background-color: #a9d7d1;
+    display: flex;
+    padding: 0 10px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #a9d7d1;
 
-    .header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.5em;
-        margin: 40px 0 40px 0;
-    }
-
-    .form-content {
-        display: flex;
-        margin: auto;
-        width: 50%;
-        height: 90vh;
+    .container {
+        width: 1080px;
+        background: #fff;
         border-radius: 5px;
-        background-color: #fafafa;
+
+        header {
+            font-size: 22px;
+            font-weight: 600;
+            padding: 20px 30px;
+            border-bottom: 1px solid #bfbfbf;
+        }
+    }
 
 
  
     }
-
-
-}
 
