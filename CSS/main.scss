@@ -23,6 +23,11 @@ body {
         height: 70vh;
         border-radius: 5px;
         background-color: #fff;
+
+        p {
+            align-items: center;
+            justify-content: center;
+        }
     }
 
     .form {
