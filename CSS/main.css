@@ -13,8 +13,8 @@ body {
 body header {
   font-size: 42px;
   font-weight: 600;
-  padding: 20px 30px;
-  margin: 0 auto;
+  text-align: center;
+  padding: 90px 30px;
 }
 
 body .container {
