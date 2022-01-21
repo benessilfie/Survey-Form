@@ -15,7 +15,6 @@
         </div>
 
         <form action="#" id="survey-form">
-
         <div class="form-items">
             <label for="name" id="name-label">Name:</label>
             <input type="text" name="name" id="name" placeholder="Enter your name" required>
@@ -27,13 +26,9 @@
         </div>
         
         <div class="form-items">
-            <label id="age-label" for="number"
-              >Age</label
-            >
-            <input
-              type="number" name="age" id="number" min="10" max="99"class="form-control"
-              placeholder="Age" />
-       </div>
+            <label id="age-label" for="number">Age</label>
+            <input type="number" name="age" id="number" min="10" max="99"class="form-control" placeholder="Age"/>
+        </div>
 
           <div class="form-items">
             <p>Which option best describes your current role?</p>
@@ -46,7 +41,33 @@
               <option value="other">Other</option>
             </select>
           </div>
-    </form>
+          
+          <div class="form-items">
+            <p>How likely is it that you will recommend FreeCodeCamp to a friend?</p>
+            <input type="radio" name="rocommend" value="definitely" id="radio">
+            <label for="radio">Definitely</label>
+
+            <input type="radio" name="rocommend" value="maybe" id="radio">
+            <label for="radio">Maybe</label>
+
+            <input type="radio" name="rocommend" value="not-sure" id="radio">
+            <label for="radio">Not Sure</label>
+        </div>
+
+        <div class="form-items">
+            <p>What do you like most in FCC?</p>
+            <select id="most-like" name="mostLike" class="form-control" required>
+              <option disabled selected value>Select an option</option>
+              <option value="challenges">Challenges</option>
+              <option value="projects">Projects</option>
+              <option value="community">Community</option>
+              <option value="openSource">Open Source</option>
+            </select>
+          </div>
+
+
+        </form>
+
     </div>
 </body>
 </html>
