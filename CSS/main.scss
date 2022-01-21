@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +7,8 @@
 }
 
 body {
-
+    font-size: 1rem;
+    font-weight: 400;
     background: #a9d7d1;
 
     header {
