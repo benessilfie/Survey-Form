@@ -21,7 +21,7 @@ body {
 
     .container {
         margin: auto;
-        width: 1520px;
+        width: 1420px;
         height: 100vh;
         display: flex;
         border-radius: 5px;
@@ -29,8 +29,8 @@ body {
         background: #fafafa;
         flex-direction: column;
 
-        form {
-            margin-left: 350px;
+        .wrapper {
+            margin-left: 200px;
         }
 
         .form-items {

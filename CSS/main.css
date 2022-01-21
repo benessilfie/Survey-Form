@@ -22,7 +22,7 @@ body header {
 
 body .container {
   margin: auto;
-  width: 1520px;
+  width: 1420px;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38,8 +38,8 @@ body .container {
           flex-direction: column;
 }
 
-body .container form {
-  margin-left: 350px;
+body .container .wrapper {
+  margin-left: 200px;
 }
 
 body .container .form-items {
