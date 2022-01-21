@@ -43,4 +43,8 @@ body .container .title p {
   font-size: 1.3em;
   font-weight: 600;
 }
+
+body .container .form-items {
+  display: block;
+}
 /*# sourceMappingURL=main.css.map */
