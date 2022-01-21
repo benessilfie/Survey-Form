@@ -44,13 +44,13 @@
           
           <div class="form-items">
             <p>How likely is it that you will recommend FreeCodeCamp to a friend?</p>
-            <input type="radio" name="rocommend" value="definitely" id="radio">
+            <input type="radio" name="recommend" value="definitely" id="radio">
             <label for="radio">Definitely</label>
 
-            <input type="radio" name="rocommend" value="maybe" id="radio">
+            <input type="radio" name="recommend" value="maybe" id="radio">
             <label for="radio">Maybe</label>
 
-            <input type="radio" name="rocommend" value="not-sure" id="radio">
+            <input type="radio" name="recommend" value="not-sure" id="radio">
             <label for="radio">Not Sure</label>
         </div>
 
@@ -65,7 +65,26 @@
             </select>
           </div>
 
+          <div class="form-items">
+            <p>Things that should be improved in the future (Check all that apply)</p>
+            <input type="checkbox" name="preference" value="Front-end" id="checkbox" class="preference-checkbox">
+            <label for="checkbox">Front-end Projects</label>
 
+            <input type="checkbox" name="preference" value="Back-end" id="checkbox">
+            <label for="checkbox">Back-end Projects</label>
+
+            <input type="checkbox" name="preference" value="Data" id="checkbox">
+            <label for="checkbox">Data Visualization</label>
+        </div>
+
+        <div class="form-items">
+            <p>Any comments or suggestions?</p>
+            <textarea name="suggestions" id="suggestions" placeholder="Enter your comments..." class="textarea"></textarea>
+        </div>
+        
+        <div class="form-items">
+            <button type="submit" id="submit" class="submit-btn">Submit</button>
+        </div>
         </form>
 
     </div>
