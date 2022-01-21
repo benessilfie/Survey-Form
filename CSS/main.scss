@@ -234,8 +234,20 @@ body {
         }
         
         .item8 {
-        align-items: center;
+        margin-right: 200px;
+        margin-top: 80px;
         justify-content: center;
+
+
+        button {
+            width: 400px;
+            outline: 0;
+            border: 0;
+            padding: 20px;
+            color: #fff;
+            border-radius: 3px;
+            background-color: blue;
+        }
         }
 
         .radio-btns {
