@@ -21,11 +21,15 @@ body {
         width: 1120px;
         height: 100vh;
         margin: auto;
+        align-items: center;
+        justify-content: center;
         background: #fafafa;
         border-radius: 5px;
 
-        .title {
-            margin: 55px auto;
+        .title p {
+            // margin: 55px auto;
+            font-size: 1.3em;
+            font-weight: 400;
         }
 
 
