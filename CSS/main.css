@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,400,500,600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +22,7 @@ body header {
 
 body .container {
   margin: auto;
-  width: 1120px;
+  width: 1520px;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,7 +42,10 @@ body .container .form-items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto;
+}
+
+body .container .form-items label {
+  font-size: 1.18em;
 }
 
 body .container .title p {
@@ -64,7 +67,37 @@ body .container .item1 {
           justify-content: center;
 }
 
+body .container .item1 input {
+  margin-left: 20px;
+  width: 350px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #bebebe;
+  border-radius: 2px;
+}
+
+body .container .item1 input::-webkit-input-placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
+}
+
+body .container .item1 input:-ms-input-placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
+}
+
+body .container .item1 input::-ms-input-placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
+}
+
+body .container .item1 input::placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
+}
+
 body .container .item2 {
+  margin: 30px 0 0 7px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -77,7 +110,37 @@ body .container .item2 {
           justify-content: center;
 }
 
+body .container .item2 input {
+  margin: 0 0 0 20px;
+  width: 350px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #bebebe;
+  border-radius: 2px;
+}
+
+body .container .item2 input::-webkit-input-placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
+}
+
+body .container .item2 input:-ms-input-placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
+}
+
+body .container .item2 input::-ms-input-placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
+}
+
+body .container .item2 input::placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
+}
+
 body .container .item3 {
+  margin: 30px 0 0 20px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -88,16 +151,42 @@ body .container .item3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+body .container .item3 input {
+  margin: 0 0 0 20px;
+  width: 350px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #bebebe;
+  border-radius: 2px;
+}
+
+body .container .item3 input::-webkit-input-placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
+}
+
+body .container .item3 input:-ms-input-placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
+}
+
+body .container .item3 input::-ms-input-placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
+}
+
+body .container .item3 input::placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
 }
 
 body .container .item4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  margin: 30px 555px 0 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -106,10 +195,50 @@ body .container .item4 {
           justify-content: center;
 }
 
+body .container .item4 p {
+  margin-bottom: 25px;
+  font-size: 1.2em;
+}
+
+body .container .item4 select {
+  margin: 0 0 0 20px;
+  width: 180px;
+  padding: 15px;
+  outline: none;
+  border: 1px solid #bebebe;
+  border-radius: 2px;
+}
+
+body .container .item4 select::-webkit-input-placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
+}
+
+body .container .item4 select:-ms-input-placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
+}
+
+body .container .item4 select::-ms-input-placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
+}
+
+body .container .item4 select::placeholder {
+  font-size: 1.5em;
+  color: #bebebe;
+}
+
+body .container .item4 select:first-child {
+  font-size: 1.05em;
+  font-weight: 500;
+}
+
 body .container .item5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 30px 565px 30px 0;
   text-align: right;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -123,10 +252,20 @@ body .container .item5 {
           justify-content: center;
 }
 
+body .container .item5 p {
+  margin-bottom: 25px;
+  font-size: 1.2em;
+}
+
+body .container .item5 .radio-btns {
+  margin: 0 0 0px 20px;
+}
+
 body .container .item6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 30px 405px 0 0;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -137,6 +276,30 @@ body .container .item6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+body .container .item6 p {
+  margin-bottom: 25px;
+  font-size: 1.2em;
+}
+
+body .container .item6 select {
+  margin: 0 0 0 20px;
+  width: 180px;
+  padding: 15px;
+  outline: none;
+  border: 1px solid #bebebe;
+  border-radius: 2px;
+}
+
+body .container .item6 option {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+body .container .item6 option:first-child {
+  font-size: 1.05em;
+  font-weight: 500;
 }
 
 body .container .item7 {
