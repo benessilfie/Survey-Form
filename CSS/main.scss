@@ -17,14 +17,14 @@ body {
     }
 
     .container {
-        display: flex;
+        margin: auto;
         width: 1120px;
         height: 100vh;
-        margin: auto;
-        align-items: center;
-        flex-direction: column;
-        background: #fafafa;
+        display: flex;
         border-radius: 5px;
+        align-items: center;
+        background: #fafafa;
+        flex-direction: column;
 
         .title p {
             margin: 45px 0;
