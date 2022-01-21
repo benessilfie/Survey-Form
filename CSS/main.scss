@@ -22,12 +22,12 @@ body {
         height: 100vh;
         margin: auto;
         align-items: center;
-        justify-content: center;
+        flex-direction: column;
         background: #fafafa;
         border-radius: 5px;
 
         .title p {
-            // margin: 55px auto;
+            margin: 45px 0;
             font-size: 1.3em;
             font-weight: 400;
         }
