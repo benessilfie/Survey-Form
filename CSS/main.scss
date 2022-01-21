@@ -29,6 +29,10 @@ body {
         background: #fafafa;
         flex-direction: column;
 
+        form {
+            margin-left: 350px;
+        }
+
         .form-items {
         display: flex;
 
@@ -208,8 +212,25 @@ body {
         }
         
         .item7 {
+        display: flex;
+        margin: 30px 235px 30px 0;
         align-items: center;
         justify-content: center;
+        
+        p {
+        margin-bottom: 25px;
+        margin-right: 30px;
+        font-size: 1.2em; 
+        }
+
+        textarea {
+            min-width: 400px;
+            max-width: 500px;
+            min-height: 100px;
+            max-height: 140px;
+            padding: 15px 20px 0 48px;
+        }
+
         }
         
         .item8 {
