@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -28,18 +29,82 @@ body {
         background: #fafafa;
         flex-direction: column;
 
-        .title p {
-            margin: 45px 0;
-            font-size: 1.3em;
-            font-weight: 600;
-        }
-
         .form-items {
-            display: block ;
+        display: flex;
+        margin: 0 auto;
         }
-    }
 
+        .title p {
+        margin: 45px 0;
+        font-size: 1.3em;
+        font-weight: 600;
+        }
 
- 
-    }
+        .item1 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .item2 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .item3 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .item4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .item5 {
+        display: flex;
+        text-align: right;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .item6 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        }
+        
+        .item7 {
+        align-items: center;
+        justify-content: center;
+        }
+        
+        .item8 {
+        align-items: center;
+        justify-content: center;
+        }
+
+        .radio-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        }
+
+        .check-items {
+        display: flex;
+        }
+
+        .main-check-items {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        }
+    } 
+}
 

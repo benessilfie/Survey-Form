@@ -11,26 +11,26 @@
     <header>Survey Form</header>
     <div class="container">
         <div class="title">
-            <p >Let us know how we can improve freeCodeCamp</p>
+            <p >Let us know how we can improve  freeCodeCamp</p>
         </div>
 
         <form action="#" id="survey-form">
-        <div class="form-items">
+        <div class="form-items item1">
             <label for="name" id="name-label">Name:</label>
             <input type="text" name="name" id="name" placeholder="Enter your name" required>
         </div>
         
-        <div class="form-items">
+        <div class="form-items item2">
             <label for="email" id="email-label">Email:</label>
             <input type="text" name="email" id="email" placeholder="Enter your email" required>
         </div>
         
-        <div class="form-items">
+        <div class="form-items item3">
             <label id="age-label" for="number">Age</label>
             <input type="number" name="age" id="number" min="10" max="99"class="form-control" placeholder="Age"/>
         </div>
 
-          <div class="form-items">
+          <div class="form-items item4">
             <p>Which option best describes your current role?</p>
             <select id="dropdown" name="role" class="form-control" required>
               <option disabled selected value>Select current role</option>
@@ -42,19 +42,28 @@
             </select>
           </div>
           
-          <div class="form-items">
-            <p>How likely is it that you will recommend FreeCodeCamp to a friend?</p>
+          <div class="form-items item5">
+            <p>How likely is it that you will recommend <br> FreeCodeCamp to a friend?</p>
+
+            <div class="radio-btns">
+            <div>
             <input type="radio" name="recommend" value="definitely" id="radio">
             <label for="radio">Definitely</label>
+            </div>
 
+            <div>
             <input type="radio" name="recommend" value="maybe" id="radio">
             <label for="radio">Maybe</label>
+            </div>
 
+            <div>
             <input type="radio" name="recommend" value="not-sure" id="radio">
             <label for="radio">Not Sure</label>
+            </div>
+            </div>
         </div>
 
-        <div class="form-items">
+        <div class="form-items item6">
             <p>What do you like most in FCC?</p>
             <select id="most-like" name="mostLike" class="form-control" required>
               <option disabled selected value>Select an option</option>
@@ -65,24 +74,33 @@
             </select>
           </div>
 
-          <div class="form-items">
-            <p>Things that should be improved in the future (Check all that apply)</p>
+          <div class="form-items check-items item5">
+            <p>Things that should be improved in the future <br> (Check all that apply)</p>
+
+            <div class="main-check-items">
+            <div>
             <input type="checkbox" name="preference" value="Front-end" id="checkbox" class="preference-checkbox">
             <label for="checkbox">Front-end Projects</label>
+            </div>
 
+            <div>
             <input type="checkbox" name="preference" value="Back-end" id="checkbox">
             <label for="checkbox">Back-end Projects</label>
+            </div>
 
+            <div>
             <input type="checkbox" name="preference" value="Data" id="checkbox">
             <label for="checkbox">Data Visualization</label>
+            </div>
+        </div>
         </div>
 
-        <div class="form-items">
+        <div class="form-items item7">
             <p>Any comments or suggestions?</p>
             <textarea name="suggestions" id="suggestions" placeholder="Enter your comments..." class="textarea"></textarea>
         </div>
         
-        <div class="form-items">
+        <div class="form-items item8">
             <button type="submit" id="submit" class="submit-btn">Submit</button>
         </div>
         </form>
