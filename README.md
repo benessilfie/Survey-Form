@@ -1,6 +1,6 @@
 # Survey Form
 
-This project is a Survey Form built with to be responsive with flexbox
+Thisis a simple Survey Form built with to be responsive with flexbox
 
 
 ## Art - Desktop View
