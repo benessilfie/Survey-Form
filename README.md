@@ -10,7 +10,7 @@ Thisis a simple survey form built to be responsive with flexbox
 
 ## Author 😊
 
-**Benjamin Ofori-Quansah**
+**Benjamin Essilfie-Quansah**
 
 - [**Twitter**](https://twitter.com/essilfiequansah)
 - [**Linkedin**](https://www.linkedin.com/in/essilfiequansah/)
